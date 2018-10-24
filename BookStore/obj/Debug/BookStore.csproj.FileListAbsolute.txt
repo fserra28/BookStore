@@ -15,6 +15,7 @@ C:\dev\BookStore\BookStore\bin\BookStore.dll.config
 C:\dev\BookStore\BookStore\bin\BookStore.dll
 C:\dev\BookStore\BookStore\bin\BookStore.pdb
 C:\dev\BookStore\BookStore\bin\Antlr3.Runtime.dll
+C:\dev\BookStore\BookStore\bin\BookStore.Domain.dll
 C:\dev\BookStore\BookStore\bin\EntityFramework.dll
 C:\dev\BookStore\BookStore\bin\EntityFramework.SqlServer.dll
 C:\dev\BookStore\BookStore\bin\Microsoft.AI.Agent.Intercept.dll
@@ -35,6 +36,7 @@ C:\dev\BookStore\BookStore\bin\System.Web.WebPages.Deployment.dll
 C:\dev\BookStore\BookStore\bin\System.Web.WebPages.dll
 C:\dev\BookStore\BookStore\bin\System.Web.WebPages.Razor.dll
 C:\dev\BookStore\BookStore\bin\WebGrease.dll
+C:\dev\BookStore\BookStore\bin\BookStore.Domain.pdb
 C:\dev\BookStore\BookStore\bin\EntityFramework.xml
 C:\dev\BookStore\BookStore\bin\EntityFramework.SqlServer.xml
 C:\dev\BookStore\BookStore\bin\Microsoft.AI.DependencyCollector.xml

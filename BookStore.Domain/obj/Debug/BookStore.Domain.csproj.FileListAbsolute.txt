@@ -1,0 +1,4 @@
+C:\dev\BookStore\BookStore.Domain\bin\Debug\BookStore.Domain.dll
+C:\dev\BookStore\BookStore.Domain\bin\Debug\BookStore.Domain.pdb
+C:\dev\BookStore\BookStore.Domain\obj\Debug\BookStore.Domain.dll
+C:\dev\BookStore\BookStore.Domain\obj\Debug\BookStore.Domain.pdb

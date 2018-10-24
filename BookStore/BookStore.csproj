@@ -161,15 +161,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201810230244463_v1.cs" />
-    <Compile Include="Migrations\201810230244463_v1.Designer.cs">
-      <DependentUpon>201810230244463_v1.cs</DependentUpon>
+    <Compile Include="Mapping\AutorMap.cs" />
+    <Compile Include="Mapping\CategoriaMap.cs" />
+    <Compile Include="Mapping\LivroMap.cs" />
+    <Compile Include="Migrations\201810240318489_v1.cs" />
+    <Compile Include="Migrations\201810240318489_v1.Designer.cs">
+      <DependentUpon>201810240318489_v1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Autor.cs" />
-    <Compile Include="Models\Categoria.cs" />
-    <Compile Include="Models\Livro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\VincularLivroAutorViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -222,8 +223,14 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201810230244463_v1.resx">
-      <DependentUpon>201810230244463_v1.cs</DependentUpon>
+    <ProjectReference Include="..\BookStore.Domain\BookStore.Domain.csproj">
+      <Project>{fbbf1d8a-734b-4d02-8106-ff3bd281345a}</Project>
+      <Name>BookStore.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810240318489_v1.resx">
+      <DependentUpon>201810240318489_v1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
